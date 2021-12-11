@@ -1,0 +1,10 @@
+<div class="modal" *ngIf="Show">
+    <div class="modal-content">
+        <div>
+            <div class="logo-holder"><img src="{{Image}}"></div>
+        </div>
+        <h2>{{Header}}</h2>
+        <h6>{{Caption}}</h6>
+        <a class="red-link" href="#" (click)="BtnClick.emit()">www.symu.co</a>
+    </div>
+</div>

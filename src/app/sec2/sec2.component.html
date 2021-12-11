@@ -1,0 +1,30 @@
+<div id="sec2">
+    <div class="header">
+        <h6>{{Header}}</h6>
+        <h2>{{Caption}}</h2>
+        <div class="card-container">
+            <div class="card" *ngFor="let card of Cards">
+                <img src="{{card.image}}">
+                <h4>{{card.Header}}</h4>
+                <h6 class="gray-font">{{card.Caption}}</h6>
+            </div>
+            <!--<div class="card">
+                <img src="/assets/images/c2.png">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <h6 class="gray-font">suspendisse vel leo efficitur, venenatis est ut, tincidunt mibh</h6>
+            </div>
+            <div class="card">
+                <img src="/assets/images/c3.png">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <h6 class="gray-font">suspendisse vel leo efficitur, venenatis est ut, tincidunt mibh</h6>
+            </div>
+            <div class="card">
+                <img src="/assets/images/c4.png">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <h6 class="gray-font">suspendisse vel leo efficitur, venenatis est ut, tincidunt mibh</h6>
+            </div>-->
+        </div>
+        <button class="btn blue-font glow-blue" (click)="BtnClick.emit()">CHECK OUR OFFER</button>
+    </div>
+
+</div>
